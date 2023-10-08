@@ -35,7 +35,7 @@ function Write-Logo {
             ElseIf($GreenArray.Contains($counter)){Write-Host($ColourSection) -NoNewline -ForegroundColor Green}
             ElseIf($CyanArray.Contains($counter)){Write-Host($ColourSection) -NoNewline -ForegroundColor Cyan}
             ElseIf($YellowArray.Contains($counter)){Write-Host($ColourSection) -NoNewline -ForegroundColor Yellow}
-            Else{Write-Host($xtest) -NoNewline}
+            Else{Write-Host($ColourSection) -NoNewline}
         }
     }
 }
